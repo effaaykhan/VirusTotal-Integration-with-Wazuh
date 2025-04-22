@@ -278,5 +278,5 @@ Move-Item -Path remove-malware.exe -Destination "C:\Program Files (x86)\ossec-ag
 ### Visualizing the alerts
 - Filter --
   ```
-  rule.id: (100093 OR 110003)
+  rule.id: (100092 OR 110003)
 ![image](https://github.com/user-attachments/assets/796d3ac2-955d-40e0-922a-fd832373a4cc)
