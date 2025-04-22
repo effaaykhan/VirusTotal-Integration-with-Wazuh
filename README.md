@@ -248,7 +248,7 @@ Move-Item -Path remove-malware.exe -Destination "C:\Program Files (x86)\ossec-ag
 
 <active-response>
    <disabled>no</disabled>
-   <command>remove-malware-windows</command>
+   <command>remove-malware</command>
    <location>local</location>
    <rules_id>110003</rules_id>
 </active-response>
