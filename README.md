@@ -28,7 +28,7 @@ pyinstaller --version
 ```
 notepad remove-threat.py
 ```
-   - [remove-threat.py]()
+   - [remove-threat.py](https://github.com/effaaykhan/VirusTotal-Integration-with-Wazuh/blob/main/remove-threat.py)
 
 7. Transforming the Python script remove-threat.py into a Windows executable application can be achieved by executing the following PowerShell command as an administrator:
 ```
@@ -223,7 +223,7 @@ Invoke-WebRequest -Uri https://wazuh-demo.s3-us-west-1.amazonaws.com/xbash -OutF
    - The active response script is created on the agent.
    - If the active response script is being run on Linux-based endpoints, the first line on the script must indicate the Python interpreter.
 
-- Create [remove-malware.py]()
+- Create [remove-malware.py](https://github.com/effaaykhan/VirusTotal-Integration-with-Wazuh/blob/main/remove-malware.py)
 ```
 notepad remove-malware.py
 ```
