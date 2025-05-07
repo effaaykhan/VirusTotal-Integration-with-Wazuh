@@ -271,8 +271,8 @@ Move-Item -Path remove-malware.exe -Destination "C:\Program Files (x86)\ossec-ag
 ### Testing the configuration
 - Perform same test by downloading the malware samples in the Downlaods directory.
 ```
- Invoke-WebRequest -Uri https://wazuh-demo.s3-us-west-1.amazonaws.com/xbash -OutFile C:\Users\Firdo\Downloads/mirai
- Invoke-WebRequest -Uri https://wazuh-demo.s3-us-west-1.amazonaws.com/xbash -OutFile C:\Users\Firdo\Downloads/xbash
+ Invoke-WebRequest -Uri https://wazuh-demo.s3-us-west-1.amazonaws.com/xbash -OutFile C:\Users\<USERNAME>\Downloads/mirai
+ Invoke-WebRequest -Uri https://wazuh-demo.s3-us-west-1.amazonaws.com/xbash -OutFile C:\Users\<USERNAME>\Downloads/xbash
 ```
 
 ### Visualizing the alerts
